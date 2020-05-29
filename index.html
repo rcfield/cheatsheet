@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link href= "Resources/CSS/index.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="Resources/images/cheatsheet.png">
+</head>
+<body>
+    <span id="top"></span>
+<header>
+    <figure class ="htmlimage">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_html5-512.png" alt="html logo" height="160" width="160">
+    </figure>
+    <h1>!CHEAT-SHEET!</h1>
+    <figure class="cssimage">
+        <img src="Resources/images/css3.png" alt="css logo" height="160" width="160">
+    </figure>
+</header>
+    <nav>
+       <ul>
+            <li><a href= "#UsefulTags">HTML Tags</a></li>
+            <li><a href= "#DefiningaTable"> HTML Tables</a></li>
+            <li><a href= "#Forms"> HTML Forms</a></li>
+            <li><a href= "#CommonProperties">Common CSS Properties</a></li>
+            <li><a href= "#Selectors&Specificity"> CSS Selectors & Specificity</a></li>
+        </ul>
+    </nav>
+    <section style="margin-top: -1.35%;">
+        <h3 id="UsefulTags">Useful tags</h3>
+        <table>
+        <thead>
+          <tr>
+              <th>Tag/attribute name</th>
+              <th>Actual formatted tag</th>
+              <th>Description</th>
+          </tr>
+        </thead>
+          <tr>
+              <td>Button</td>
+              <td><span>&lt;button&gt;&lt;/button&gt;</span></td>
+              <td>To create a button feature</td>
+          </tr>
+          <tr>
+              <td>images</td>
+              <td><span>&lt;img&gt;</span></td>
+              <td>Creates an image in your document</td>
+          </tr>
+          <tr>
+              <td>Span</td>
+              <td><span>&lt;span&gt;&lt;/span&gt;</span></td> 
+              <td>Defines a section in a document</td>
+          </tr>
+          <tr>
+              <td>Ordered list</td>
+              <td><span>&lt;ol&gt;&lt;/ol&gt;</span></td>
+              <td>Includes an ordered list in your document</td>
+          </tr>
+          <tr>
+              <td>Pre-formatted text</td>
+              <td><span>&lt;pre&gt;&lt;/pre&gt;</span></td>
+              <td>Defines pre-formatted text</td>
+          </tr>
+        </table>
+        <p>Click <a href="https://www.w3schools.com/html/default.asp" target="_blank" style="color:red;">HERE</a> for more on HTML tags and attributes.</p>
+    </section>
+    <section>
+        <h3 id="DefiningaTable">Tables</h3>
+        <p>An HTML table is defined with a <span>&lt;table&gt;.</span></p>
+        <p>Each table row is defined with the <span>&lt;tr&gt;</span>. A table header is defined with the <span>&lt;th&gt;</span> tag. By default, table headings are bold and centered. A table data/cell is defined with the <span>&lt;td&gt;</span> tag.</p>
+        <h4>Example:</h4>
+        <pre> 
+        <span>&lt;table&gt;</span><br>
+              <span>&lt;tr&gt;</span><br>
+                <span>&lt;th&gt;Firstname&lt;/th&gt;</span><br>                   
+                <span>&lt;th&gt;Lastname&lt;/th&gt;</span><br>                      
+                <span>&lt;th&gt;Age&lt;/th&gt;</span><br>                             
+              <span>&lt;/tr&gt;</span><br>                                              
+              <span>&lt;tr&gt;</span><br>                                            
+                <span>&lt;td&gt;Allen&lt;/td&gt;</span><br>
+                <span>&lt;td&gt;Smith&lt;/td&gt;</span><br>
+                <span>&lt;td&gt;50&lt;/td&gt;</span><br>
+              <span>&lt;/tr&gt;</span><br>
+              <span>&lt;tr&gt;</span><br>
+                <span>&lt;td&gt;Anna&lt;/td&gt;</span><br>
+                <span>&lt;td&gt;Jackson&lt;/td&gt;</span><br>
+                <span>&lt;td&gt;94&lt;/td&gt;</span><br>
+              <span>&lt;/tr&gt;</span><br>
+        <span>&lt;/table&gt;</span>
+        </pre>
+        <p>Click <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank"  style="color:red;">HERE</a> for more on HTML tables.</p>
+    </section>
+    <section>
+        <h3 id="Forms">The &lt;form&gt; Element</h3>
+        <p>The HTML <span>&lt;form&gt;</span> element defines a form that is used to collect user input:</p>
+        <pre style="padding-top: 1%;">
+                  <span>&lt;form&gt;</span>
+                  .
+                  <em>form elements</em>
+                  .
+                  <span>&lt;/form&gt;</span>
+        </pre>
+        <p>An HTML form contains <strong>form elements.</strong></p>
+        <p>Form elements are types of input elements, like:text fields, checkboxes, radio buttons, submit buttons, and more.</p>
+        <h3>The &lt;input&gt; Element</h3>
+        <p>The <span>&lt;input&gt;</span> element is the most important form element.</p>
+        <p>The <span>&lt;input&gt;</span> element is displayed in several ways, depending on the <strong>type</strong> attribute.</p>
+        <p>Here are some examples:</p>
+        <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td><span>&lt;input type="text"&gt;</span></td>
+                    <td>Defines a single-line text input field</td>
+                </tr>
+                <tr>
+                    <td><span>&lt;input type="radio"&gt;</span></td>
+                    <td>Defines a radio button (for selecting one of many choices)</td>
+                </tr>
+                <tr>
+                    <td><span>&lt;input type="submit"&gt;</span></td>
+                    <td>Defines a submit button (for submitting the form)</td>
+                </tr>
+        </table>
+        <p>Click <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank" style="color: red;">HERE</a> for more on HTML forms.</p>
+    </section>
+    <section>
+        <h3 id="CommonProperties">Common CSS Properties</h3>
+        <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>align-content</td>
+                        <td>Specifies the alignment between the lines inside a flexible container when the items do not use all available space</td>
+                    </tr>
+                    <tr>
+                        <td>backround</td>
+                        <td>A shorthand property for all the backround properties</td>
+                    </tr>
+                    <tr>
+                        <td>backround-image</td>
+                        <td>Specifies one or more backround images for an element</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>A shorthand property for border-width, border style and border-color</td>
+                    </tr>
+                    <tr>
+                        <td>border-collapse</td>
+                        <td>Sets whether table borders should collapse into a single border or be separated</td>
+                    </tr>
+                    <tr>
+                        <td>font-family</td>
+                        <td>Specifies the font family for text</td>
+                    </tr>
+                    <tr>
+                        <td>font-weight</td>
+                        <td>Specifies the weight of a font</td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>Sets all the margin properties in one declaration</td>
+                    </tr>
+        </table>
+        <p>Click <a href="https://www.w3schools.com/cssref/default.asp" target="_blank" style="color: red;">HERE</a> for more on CSS properties.</p>
+    </section>
+    <section>
+        <h3 id="Selectors&Specificity"> CSS Selectors & Specificity </h3>
+        <p><strong>The CSS element Selector</strong></p>
+        <p>The element selector selects HTML elements based on the elements name.</p>
+        <p>In the following all <span>&lt;p&gt;</span> elements on the page will be center-aligned, with a red text color:</p>
+        <pre style="padding-top: 1%;">
+            p {
+                <span style="color: red;">text-align</span>:<span style="color: blue;">center</span>;
+                <span style="color: red;">color</span>: <span style="color: blue;">red</span>;
+            }
+        </pre>
+        <p><strong>The CSS class Selector</strong></p>
+        <p>The class selector selects HTML elements with a specific class attribute.</p>
+        <p>To select elements with a specific class, write a period (.) character, followed by the class name. The class selector is more specific than the element selector mentioned above, and so a class selector will override any styles from a tag selector.</p>
+        <p>In this example all HTML elements with class="center" will be red and center-aligned:</p>
+        <pre style="padding-top: 1%;">
+            <span style="color: rgb(228, 135, 15);">.center</span> {
+                <span style="color: red;">text-align</span>: <span style="color: blue;">center</span>;
+                <span style="color: red;">color</span>: <span style="color: blue;">red</span>;
+            }
+        </pre>
+        <p><strong>The CSS id Selector</strong></p>
+        <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+        <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+        <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element. Id selectors are more specific than class selectors mentioned above, and so an id selector will override any styles from a class selector AND from a tag selector.</p>
+        <p>The CSS rule below will be paid to the HTML element with id="para1":</p>
+        <pre style="padding-top: 1%;">
+            <span style="color: rgb(230, 136, 14);">#para1</span> {
+                <span style="color: red;">text-align</span>: <span style="color: blue;">center</span>;
+                <span style="color: red;">color</span>: <span style="color: blue;">red</span>;
+            }
+        </pre>
+        <p>Click <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank" style="color: red;">HERE</a> for more on CSS selectors.</p>
+    </section><br>
+    <p><a href="#top">GO TO TOP OF PAGE</a></p>
+    <footer>
+     <img class="footimage" src="Resources/images/wallpaper.jpg" alt="codingwallpaper">   
+    </footer>
+    </body>
+</html>

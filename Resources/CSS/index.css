@@ -1,0 +1,144 @@
+body {
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+html {
+    height: 100%;
+}
+
+nav {
+    background-color: ivory;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+header {
+    position: relative;
+    background-color: black;
+}
+
+h1 {
+    font-size: 200%;
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    top: 20%;
+    margin-left: 39%;
+    background-color: darkgreen;
+    padding: 2%;
+    border-radius: 50%;
+    
+}
+    
+.htmlimage {
+    display: inline-block;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 2%;
+  }
+
+figure {
+    display: inline-block;
+}
+
+.cssimage {
+    display: inline-block;
+    text-align: right;
+    margin-right: auto;
+    margin-left: 72%;
+    }
+
+li {
+   display: inline; 
+}
+
+li a {
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 19%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background-color:  #333;
+   color: white;
+   text-align: center;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+tr td:hover {
+    background-color: lightsteelblue;
+}
+
+th {
+    background-color: rgb(11, 97, 11);
+    color: white;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+
+ table {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ h3 {
+     background-color: teal;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     margin-left: 10%;
+     margin-right: 10%;
+     border-radius: 45%;
+     text-align: center;
+     color: white;
+     font-family: Arial;
+ }
+
+ span {
+     font-family: monospace;
+     background-color: lightgrey;
+ }
+
+ pre {
+     
+     margin-right: auto;
+     margin-left: auto;
+     text-align: justify;
+     margin-left: 38%;
+     margin-right: 38%;
+     border-radius: 20%;
+     background-color: lightslategray;
+ }
+
+ section,
+ p {
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+ }
+
+p {
+     font-family: Arial;
+ }
+
+footer {
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.footimage {
+   position: absolute;
+   overflow: hidden;
+   width: 99%;
+   height: 45%;
+}
+
+ 
